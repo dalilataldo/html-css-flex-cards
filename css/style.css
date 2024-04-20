@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+h1 {
+    text-align: center;
+    color: #e53170;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.paragrafo {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    text-align: center;
+}
