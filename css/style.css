@@ -42,7 +42,7 @@ main {
 
 .box {
     height: 100px;
-    width: 320px;
+    width: 340px;
     background-color: black;
     display: flex;
 }
