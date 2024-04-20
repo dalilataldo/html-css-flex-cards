@@ -21,8 +21,57 @@ h1 {
 }
 
 .paragrafo {
+    display: flex;
+    width: 100%;
     padding-left: 200px;
     padding-right: 200px;
     padding-top: 50px;
     text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.box {
+    height: 100px;
+    width: 320px;
+    background-color: black;
+    display: flex;
+}
+
+img {
+    align-self: flex-end;
+    height: 100px;
+    width: 100px;
+}
+
+.colonna {
+    display: block;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 25px;
+}
+
+.nome {
+    color: white;
+    justify-self: flex-end;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.qualifica {
+    color: white;
+}
+
+.email {
+    color: #4dcce3;
 }
